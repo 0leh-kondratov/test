@@ -1,3 +1,4 @@
+```mermaid
 graph TD
     A[Google Sheets2] --> B[Split In Batches (Batch Size = 1)]
     B --> C[Split Long Message (добавляет row_number и part)]
@@ -7,3 +8,4 @@ graph TD
     F --> D
     D -->|все части отправлены| G[Next row]
     G --> B
+```
